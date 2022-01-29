@@ -1,0 +1,14 @@
+.ident_container{
+    height:100%;
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+.form_ident{
+    height: 90%;
+    width: 100%;
+}
+.ident_container> h3{
+margin: auto;
+}

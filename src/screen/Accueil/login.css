@@ -1,0 +1,17 @@
+.login_container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    }
+    .identification{
+        width: 40%;
+        height: 100%;
+        margin: auto;
+        }
+    .inscription{
+        width: 40%;
+        height: 100%;
+        margin: auto;
+    }

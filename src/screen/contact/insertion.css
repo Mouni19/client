@@ -1,0 +1,22 @@
+.espace_étudiant{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+h1{
+color: brown;
+font-size: 3rem;
+}
+Button{
+height: 3rem;
+width: 3rem;
+background-color: coral;
+color: crimson;
+}
+Input{
+    height: 3rem;
+    width: 3rem;
+    background-color: coral;
+}
