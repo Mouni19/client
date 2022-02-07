@@ -8,10 +8,10 @@ const Insertion = () =>{
     <div className='espace_étudiant'> 
        <h1>Gestion des étudiants</h1>
 
-       <Input type={Date} name='année détude'></Input>
-       <Input type ={Date} name='année scolaire'></Input>
+      {/* <Input type={Date} name='année détude'></Input>
+       <Input type ={Date} name='année scolaire'></Input>*/}
        
-       <Link to="/newStudent"><Button>Ajouter un étudiant</Button></Link>
+       <Link to="/screenNewStudent"><Button>Ajouter un étudiant</Button></Link>
        <Button>Ajouter à partir d'excel</Button>
        <Button>Supprimer un étudiant</Button>
        <Button>Modifier un étudiant</Button>
