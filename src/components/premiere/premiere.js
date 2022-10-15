@@ -35,9 +35,9 @@ const PremierePage = () =>{
     <br/>
     </div>
 
-    <Link to="/insertion"><Button>Gestion des étudiants</Button></Link>
-    <Button>Gestion des modules</Button>
-    <Button>Gestion des épreuves</Button>
+    <Link to="/studentManage"><Button>Gestion des étudiants</Button></Link>
+    <Link to = "/moddulleManage"><Button>Gestion des modules</Button></Link>
+    <Link to = "/epreuveManage"><Button>Gestion des épreuves</Button></Link>
     <Button>Affichage et impression des sorties</Button>
     <Button onClick={logout1}>Logout</Button>
 </div>

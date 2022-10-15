@@ -1,0 +1,13 @@
+.found_window{
+    height:25rem;
+    width: 25rem;
+    background-color:blue;
+    justify-content: space-between;
+    
+}
+.tableau_rech_mod{
+    height: 2rem;
+    width: 3rem;
+    background-color: aquamarine;
+    color: black;
+}

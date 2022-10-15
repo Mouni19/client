@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button,Input} from "@material-ui/core";
-import './insertion.css';
+import './studentManage.css';
 import {Link} from "react-router-dom";
 
 const Insertion = () =>{
@@ -12,11 +12,9 @@ const Insertion = () =>{
        <Input type ={Date} name='année scolaire'></Input>*/}
        
        <Link to="/screenNewStudent"><Button>Ajouter un étudiant</Button></Link>
-       <Button>Ajouter à partir d'excel</Button>
-       <Button>Supprimer un étudiant</Button>
-       <Button>Modifier un étudiant</Button>
-       <Button>Rechercher un étudiant</Button>
-       <Button>Afficher tous les étudiants</Button>
+       <Link to="/downloadExcel"><Button>Ajouter à partir d'excel</Button></Link>
+       <Link to="/found"><Button>Rechercher un étudiant</Button></Link>
+       <Link to ="/allStudents"><Button >Afficher tous les étudiants</Button></Link>
     </div>
         
     );

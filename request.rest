@@ -1,0 +1,1 @@
+GET http://localhost:1337/student/studentss?nom=mesbah?prenom=amina

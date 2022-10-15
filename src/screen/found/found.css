@@ -1,0 +1,46 @@
+.found_window{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.tableau_rech_etu{
+    width: 10rem;
+    height: 10rem;
+    /*display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;*/
+}
+.tableau_rech_etu li{
+    width: 2rem;
+    height: 1rem;
+}
+.tableau_rech_etu ul{
+    width: 5rem;
+    height: 5rem;
+}
+.mapBtn{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+Input{
+    width: 30px;
+    height: 10px; 
+    background-color: blue;
+}
+.tableau_rech_etu{
+    width: 20rem;
+    height: 20rem; 
+    background-color: brown;
+    color: aquamarine;
+}
+.studentWindew{
+    width: 20rem;
+    height: 20rem;
+    background-color: brown;
+}
+
