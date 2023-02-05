@@ -11,7 +11,7 @@ const NewModdulle =()=>{
     const [coefficient, setCoefficient] = useState('');
     const [nombre_epreuves, setNombre_epreuves] = useState('');
     const [année, setAnnée] = useState('');
-    const [epreuves, setEpreuves] = useState([]);
+    
        
 const send=()=>{
 const data={code_moddulle,designation_moddulle,coefficient,
@@ -30,7 +30,6 @@ const data={code_moddulle,designation_moddulle,coefficient,
                 <Input type='number' name='coefficient' placeholder='le coéfficient' onChange={(e)=> setCoefficient(e.target.value)}></Input>
                 <Input type='number' name='nombre_epreuves' placeholder='le nombre dépreuves' onChange={(e)=> setNombre_epreuves(e.target.value)}></Input>
                 <Input type='number' name='année' placeholder='la année du modu module' onChange={(e)=> setAnnée(e.target.value)}></Input>
-                <Input type='Array' name='epreuves' placeholder='les épreuves' onChange={(e)=> setEpreuves(e.target.value)}></Input>
                 <Button onClick={send}>Ajouter le module</Button>
                 
             </FormControl>
